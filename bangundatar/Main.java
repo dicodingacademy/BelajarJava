@@ -20,7 +20,7 @@ public class Main {
     public static void main(String[] args){
         /*Kamus*/
         PersegiPanjang opersegi;
-        Segitiga osegitiga;
+        SegitigaSiku osegitiga;
         Lingkaran olingkaran;
         int s1, s2, r;
 
@@ -44,9 +44,9 @@ public class Main {
                 break;
             }
             case '2':{
-                System.out.print("Masukan alas segitiga: ");
+                System.out.print("Masukan alas segitiga siku: ");
                 s1 = scanner.nextInt();
-                System.out.print("Masukan tinggi segitiga: ");
+                System.out.print("Masukan tinggi segitiga siku: ");
                 s2 = scanner.nextInt();
                 System.out.println("Luas segitiga: " + osegitiga.luas(s1,s2));
                 System.out.println("Keliling segitiga: " + osegitiga.keliling(s1,s2));
