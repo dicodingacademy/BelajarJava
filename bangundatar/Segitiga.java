@@ -1,6 +1,6 @@
 package bangundatar;
 
-public class Segitiga implements BangunDatar {
+public class SegitigaSiku implements BangunDatar {
 
     Segitiga(){}
 
