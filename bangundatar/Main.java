@@ -11,7 +11,7 @@ public class Main {
         System.out.println("====================");
         System.out.println("Hitung Luas dan Keliling :");
         System.out.println("1. Persegi Panjang");
-        System.out.println("2. Segitika Siku");
+        System.out.println("2. Segitiga Siku");
         System.out.println("3. Lingkaran");
         System.out.print("Masukan Menu : ");
         pilihan = scanner.next().charAt(0);
