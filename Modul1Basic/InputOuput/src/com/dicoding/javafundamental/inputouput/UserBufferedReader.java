@@ -8,21 +8,21 @@ public class UserBufferedReader {
 
     public static void main(String[] args) {
 
-        InputStreamReader isr = new InputStreamReader(System.in);
+        InputStreamReader streamReader = new InputStreamReader(System.in);
         BufferedReader bufferedReader = new BufferedReader(isr);
         System.out.println("Program penjumlahan sangat sederhana");
-        int value1 = 0;
-        int value2 = 0;
+        int value = 0;
+        int anotherValue = 0;
         try {
             System.out.print("Masukan Angka pertama : ");
-            value1 = Integer.parseInt(bufferedReader.readLine());
+            value = Integer.parseInt(bufferedReader.readLine());
             System.out.print("Masukan Angka kedua : ");
-            value2 = Integer.parseInt(bufferedReader.readLine());
+            anotherValue = Integer.parseInt(bufferedReader.readLine());
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-        int hasil = value1 + value2;
-        System.out.println("Hasilnya adalah : " + hasil);
+        int result = value + anotherValue;
+        System.out.println("Hasilnya adalah : " + result);
     }
 }
