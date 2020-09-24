@@ -6,6 +6,6 @@ public class UserOutput {
         System.out.println("Dicetak pakai println()");
         System.out.println("Ini juga dicetak pakai println()");
         System.out.print("Ini dicetak dengan print()");
-        System.out.print("Dan ini juga dicetak dengan print()");
+        System.out.print(" dan ini juga dicetak dengan print()");
     }
 }
