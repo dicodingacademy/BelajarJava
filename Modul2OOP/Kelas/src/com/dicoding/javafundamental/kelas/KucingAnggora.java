@@ -14,7 +14,7 @@ public class KucingAnggora {
     //dengan memberikan nilai awal data member nama_kucing dan berat_badan
     //dengan parameter yang kita tentukan
     public KucingAnggora(String nama, int berat) {
-        nama_kucing = nama;
-        berat_badan = berat;
+        namaKucing = nama;
+        beratBadan = berat;
     }
 }
