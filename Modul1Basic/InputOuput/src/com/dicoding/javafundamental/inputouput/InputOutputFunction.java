@@ -8,10 +8,10 @@ public class InputOutputFunction {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Program penjumalahan sangat sederhana");
         System.out.print("Masukan Angka pertama : ");
-        int value1 = scanner.nextInt();
+        int value = scanner.nextInt();
         System.out.print("Masukan Angka kedua : ");
-        int value2 = scanner.nextInt();
-        int hasil = value1 + value2;
-        System.out.println("Hasilnya adalah : " + hasil);
+        int anotherValue = scanner.nextInt();
+        int result = value + anotherValue;
+        System.out.println("Hasilnya adalah : " + result);
     }
 }
