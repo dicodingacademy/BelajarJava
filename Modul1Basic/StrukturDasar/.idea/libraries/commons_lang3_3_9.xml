@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="commons-lang3-3.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/lib/commons-lang3-3.9.jar!/" recursive="false" />
+  </library>
+</component>
